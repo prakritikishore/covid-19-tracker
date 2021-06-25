@@ -36,7 +36,7 @@ public class DataService {
         for (CSVRecord record : records) {
             LocationStats stats = new LocationStats();
             stats.setCountry(record.get("Country/Region"));
-            stats.setState(record.get("Country/Region"));
+            stats.setState(record.get("Province/State"));
             Integer caseCounts = Integer.parseInt(record.get(record.size() - 1));
             Integer prevCase = Integer.parseInt(record.get(record.size() - 2));
             stats.setLatestCaseCounts(caseCounts);

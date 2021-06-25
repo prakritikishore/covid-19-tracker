@@ -24,14 +24,14 @@
         <tr>
             <th>COUNTRY</th>
             <th>STATE</th>
-            <th>TODAY'S COUNTS</th>
-            <th>CASE DIFFERENCE FROM YESTERDAY</th>
+            <th>TOTAL CASES REPORTED TODAY</th>
+            <th>DIFFERENCE FROM YESTERDAY</th>
         </tr>
          <tr th:each="statsRecord : ${statsRecords}">
-            <td th:text="${statsRecord.country}"></td>
-            <td th:text="${statsRecord.state}"></td>
-            <td th:text="${statsRecord.latestCaseCounts}">0</td>
-            <td th:text="${statsRecord.diffFromPrevDay}">0</td>
+             <td th:text="${statsRecord.country}"></td>
+             <td th:text="${statsRecord.state} != '' ? ${statsRecord.state} : 'N/A'" />
+             <td th:text="${statsRecord.latestCaseCounts}">0</td>
+             <td th:text="${statsRecord.diffFromPrevDay}">0</td>
         </tr>
     </table>
     </div>

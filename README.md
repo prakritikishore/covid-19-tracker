@@ -1,10 +1,12 @@
 # Covid-19 Tracker
 
-## **Screenshot**
+## **Screenshots**
 
 ## **Home Page**
 
-![Home Page](/README/HomePage.JPG)
+![Home Page](/README/HomePage1.JPG)
+
+![Home Page](/README/HomePage2.JPG)
 
 ## **Technologies**
 
