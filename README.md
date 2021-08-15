@@ -11,7 +11,7 @@
 ## **Technologies**
 
 * Spring Boot
-* Thymleaf
+* Thymeleaf
 * Bootstrap
 
 ## **Data Set Used**
