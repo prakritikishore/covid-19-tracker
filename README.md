@@ -8,7 +8,7 @@
 
 ![Home Page](/README/HomePage2.JPG)
 
-## **Technologies**
+## **Tech Stack**
 
 * Spring Boot
 * Thymeleaf
